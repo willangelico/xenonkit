@@ -1,0 +1,27 @@
+    nav{
+    	background: $bg-primary;
+    	position: absolute;    	
+    	top: 0;
+    	margin-left: -150%;
+    	overflow: hidden;    	
+    	-webkit-transition: ease all 1s; /* Safari */
+    	transition: ease all 1s;
+    	ul{
+    		margin: 30px 0px;
+    		li{ 
+    			list-style: none;
+    			a{
+    				display: inline-block;
+    				font-size: $font-size-primary;
+    				padding: 20px;
+    				color: $color-primary;
+    				&:hover,
+    				&:active,
+    				&:focus{
+    					color: $color-info;
+    					text-decoration: none;
+    				}
+    			}
+    		}
+    	}
+    }

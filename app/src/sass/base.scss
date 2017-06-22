@@ -1,0 +1,28 @@
+header{
+	position: fixed;
+	background-color: $bg-primary;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	color: $color-primary;
+
+	h1{
+		margin: 5px;
+	}
+}
+main{
+
+}
+
+footer{		
+	background-color: $bg-default;
+	padding:10px;
+	text-align: center;
+	color: $color-default;
+	font-weight: bold;
+}
+
+.center{
+	margin: 0 auto;
+}

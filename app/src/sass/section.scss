@@ -1,0 +1,50 @@
+section{
+	padding: 10% 0px;	
+	&.section-theme-1{
+		background-color: $bg-default;
+		color: $color-default;	
+	}
+	&.section-theme-2{
+		background-color: $bg-primary;
+		color: $color-primary;
+	}
+	&.section-8{
+		background-image:url('../img/xenon-lateral.png');
+		background-repeat: no-repeat;
+		background-position: right top;
+		height: 600px;
+	}
+	.thumbs{		
+		min-height: 500px;
+		text-align: center;
+		img{
+			width: 250px;
+			height: 250px;
+			border: 3px solid #111;
+		}		
+	}
+	p{
+		padding: 30px 0px;
+	}
+
+}
+#main-fold{
+	background:url('../img/xenon.jpg') no-repeat center;
+	background-size: cover;
+	color: $color-primary;
+	font-size: 20px;
+	text-align: center;
+	position:relative;
+	.col-xs-12{
+		position: absolute;
+	    margin: 0px -15px 30px;
+	    padding: 0px;
+	    bottom: 20px;
+	    width: 100%;
+	}
+	p{
+		padding: 0px 10%;
+    	text-align: center;	
+    	font-size: 16px;
+	}
+}
